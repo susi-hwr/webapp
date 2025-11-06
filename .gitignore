@@ -1,3 +1,8 @@
-.DS_Store
+# Ignore __pycache__ folder (precompiled Python code)
+__pycache__/
 
+# Ignore venv folder (Python Virtual Environment)
 venv/
+
+# Optional: ignore instance folder (used by Flask web app, e.g., for SQLite database)
+instance/
